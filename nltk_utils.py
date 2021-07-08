@@ -13,10 +13,10 @@ def stem_and_lower(token):
 
 def bag_of_words(tokenized_phrase, all_words):
     tokenized_phrase = [stem_and_lower(word) for word in tokenized_phrase]
-    bag = np.zeros(len(all_words), dt=np.float32)
+    bag = np.zeros(len(all_words), dtype=np.float32)
 
     for index, word in enumerate(all_words):
         if word in tokenized_phrase:
-            bag[index] = 1.0
+            bag[index] = 1
             
     return bag
