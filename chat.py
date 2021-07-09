@@ -28,3 +28,23 @@ print("I'm here to chat! Type 'quit' (casing does not matter) to exit.")
 while True:
     phrase = input('You: ')
     if phrase.lower() == 'quit':
+        break
+
+    phrase = tokenize(phrase)
+    X = bag_of_words(phrase, all_words)
+    X = X.reshape(1, X.shape[0])
+    X = torch.from_numpy(X)
+
+    output = model(X)
+    _, predicted = torch.max(output, dim=1)
+    tag = tags[predicted.item()]
+
+    probs = torch.softmax(output, dim=1)
+    prob = probs[0][predicted.item()]
+
+    if prob.item() > 0.75:
+        for intent in intents['intents']:
+            if tag == intent['tag']:
+                print(f"{bot_name}: {random.choice(intent['responses'])}")
+    else:
+        print(f"{bot_name}: Forgive me but I am still learning and do not yet understand this... ")

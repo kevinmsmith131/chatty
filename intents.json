@@ -6,78 +6,135 @@
         "Hi",
         "Hey",
         "How are you",
+        "How's it going?",
         "Is anyone there?",
         "Hello",
-        "Good day"
+        "Good day",
+        "What's up?",
+        "What have you been up to",
+        "What's happening",
+        "Anything new with you?",
+        "Good to see you",
+        "Hola",
+        "Salute"
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hi",
+        "Hey",
+        "Hello",
+        "Hi there",
+        "Good to see you!",
+        "I'm glad you stopped by",
+        "Never thought I'd see you here!",
+        "My salutations"
       ]
     },
     {
-      "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "tag": "farewell",
+      "patterns": [
+        "Bye", 
+        "See you later", 
+        "Goodbye",
+        "Farewell",
+        "So long",
+        "I'll see you around", 
+        "I'm out",
+        "I'm leaving now",
+        "Catch you later",
+        "Peace out"
+      ],
       "responses": [
-        "See you later, thanks for visiting",
+        "See you later",
+        "Thanks for visiting",
         "Have a nice day",
-        "Bye! Come back again soon."
+        "Bye",
+        "Come back soon.",
+        "I hope to see you again!",
+        "Please do visit again in the near future", 
+        "I hope this isn't the last I hear from you",
+        "Don't be a stranger!",
+        "Stay in touch!"
       ]
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
-    },
-    {
-      "tag": "items",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "Thanks", 
+        "Thank you so much",
+        "You are the best",
+        "How can I thank you?", 
+        "That was very helpful", 
+        "That helped a lot!",
+        "I appreciate you",
+        "What would I do without you?",
+        "I owe you one",
+        "You're a lifesaver"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "Glad I could help", 
+        "Of course", 
+        "Happy to assist you", 
+        "No problem",
+        "Don't worry about it",
+        "That's what I'm here for",
+        "Let me know if you need anything else",
+        "You're welcome"
       ]
     },
     {
-      "tag": "payments",
+      "tag": "jokes",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
-      ],
-      "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
-      ]
-    },
-    {
-      "tag": "delivery",
-      "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
-      ],
-      "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
-      ]
-    },
-    {
-      "tag": "funny",
-      "patterns": [
-        "Tell me a joke!",
+        "Can I hear a joke?",
         "Tell me something funny!",
-        "Do you know a joke?"
+        "Tell me a joke",
+        "Do you know a joke?",
+        "Make me laugh",
+        "I need a good laugh",
+        "Do you have any good jokes?",
+        "I bet you can't make me laugh"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "I invented a new word. Plagiarism!",
+        "Why don't scientists trust atoms? Because they make everything up.",
+        "Where are average things manufactured? The satisfactory.",
+        "Where do you wash a hipster? In the mainstream.",
+        "What does a nosy pepper do? Gets jalapeño business.",
+        "Why can't you explain puns to kleptomaniacs? They always take everything literally.",
+        "What kind of exercise do lazy people do? Diddly-squats.",
+        "What did the left eye say to the right eye? Between you and me, something smells."
+      ]
+    },
+    {
+      "tag": "facts",
+      "patterns": [
+        "Give me a fun fact",
+        "I'm bored",
+        "Entertain me",
+        "Let me hear a fact",
+        "What's on your mind?",
+        "Tell me what you're thinking about",
+        "Tell me something I don;t know",
+        "Teach me something new",
+        "I want to learn something",
+        "Say something interesting",
+        "Random",
+        "I want something random",
+        "Tell me something fun"
+      ],
+      "responses": [
+        "A crocodile cannot stick its tongue out",
+        "A shrimp's heart is in its head",
+        "It is physically impossible for a pig to look up at the sky",
+        "If you sneeze too hard, you could fracture a rib",
+        "Some lipsticks contain fish scales",
+        "Rubber bands last longer when refrigerated",
+        "There are 293 ways to make change for a dollar",
+        "A shark is the only known fish that can blink with both eyes",
+        "Almonds are a member of the peach family",
+        "A cat has 32 muscles in each ear",
+        "An ostrich's eye is bigger than its brain",
+        "Tigers have striped skin, not just striped fur",
+        "A dime has 118 ridges around the edge"
       ]
     }
   ]
