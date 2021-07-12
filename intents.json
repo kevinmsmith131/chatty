@@ -4,19 +4,27 @@
       "tag": "greeting",
       "patterns": [
         "Hi",
+        "Hi there",
         "Hey",
         "How are you",
         "How's it going?",
         "Is anyone there?",
         "Hello",
+        "Howdy",
+        "Heyo",
         "Good day",
         "What's up?",
-        "What have you been up to",
+        "What have you been up to?",
         "What's happening",
         "Anything new with you?",
         "Good to see you",
         "Hola",
-        "Salute"
+        "Salute",
+        "Top of the morning",
+        "Good evening",
+        "Yo",
+        "What's good", 
+        "It's been a minute"
       ],
       "responses": [
         "Hi",
@@ -41,7 +49,15 @@
         "I'm out",
         "I'm leaving now",
         "Catch you later",
-        "Peace out"
+        "Peace out",
+        "Later",
+        "Toodles",
+        "Until next time",
+        "See ya",
+        "Later",
+        "Talk to you later",
+        "I'll be back",
+        "I'm afraid this is goodbye"
       ],
       "responses": [
         "See you later",
@@ -60,25 +76,26 @@
       "tag": "thanks",
       "patterns": [
         "Thanks", 
+        "Thank you",
         "Thank you so much",
         "You are the best",
         "How can I thank you?", 
         "That was very helpful", 
         "That helped a lot!",
         "I appreciate you",
+        "I needed that",
         "What would I do without you?",
         "I owe you one",
-        "You're a lifesaver"
+        "You're a lifesaver",
+        "You're too kind",
+        "You are a hero"
       ],
       "responses": [
         "Glad I could help", 
         "Of course", 
         "Happy to assist you", 
-        "No problem",
-        "Don't worry about it",
         "That's what I'm here for",
-        "Let me know if you need anything else",
-        "You're welcome"
+        "Let me know if you need anything else"
       ]
     },
     {
@@ -91,7 +108,12 @@
         "Make me laugh",
         "I need a good laugh",
         "Do you have any good jokes?",
-        "I bet you can't make me laugh"
+        "I bet you can't make me laugh",
+        "What's your best joke?",
+        "I'm in the mood for a joke",
+        "Hit me with a joke",
+        "Got any jokes?",
+         "Random joke"
       ],
       "responses": [
         "I invented a new word. Plagiarism!",
@@ -117,9 +139,12 @@
         "Teach me something new",
         "I want to learn something",
         "Say something interesting",
-        "Random",
+        "Random fact",
         "I want something random",
-        "Tell me something fun"
+        "Tell me something fun",
+        "I'm in the mood for a fact",
+        "What's your best fact",
+        "Hit me with a fact"
       ],
       "responses": [
         "A crocodile cannot stick its tongue out",
@@ -136,6 +161,35 @@
         "Tigers have striped skin, not just striped fur",
         "A dime has 118 ridges around the edge"
       ]
-    }
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "Who are you?",
+        "What is your name?",
+        "What do you do",
+        "Help",
+        "How do I use this",
+        "What can you do",
+        "What should I ask you?",
+        "What can I ask about?",
+        "What do you talk about?",
+        "What is your purpose?",
+        "What questions can I ask?",
+        "Do you have a name?",
+        "Are you human?", 
+        "Are you a robot?",
+        "Who made you?",
+        "What language do you speak",
+        "What language are you written in",
+        "How do you talk?",
+        "How do you understand me?",
+        "Where do you come from?",
+        "Tell me about yourself",
+        "About",
+        "What topics are you interested in?"
+      ],
+      "responses": "My name is Chatty and I am an English speaking chat bot made by Kevin Smith. I use Neural Networks and Natural Language Processing to be able to talk to you. I can provide jokes and fun facts, as well as carry out basic conversation."
+    } 
   ]
 }

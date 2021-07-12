@@ -24,12 +24,8 @@ model.load_state_dict(model_state)
 model.eval()
 
 bot_name = 'Chatty'
-print("I'm here to chat! Type 'quit' (casing does not matter) to exit.")
-while True:
-    phrase = input('You: ')
-    if phrase.lower() == 'quit':
-        break
 
+def get_response(phrase):
     phrase = tokenize(phrase)
     X = bag_of_words(phrase, all_words)
     X = X.reshape(1, X.shape[0])
