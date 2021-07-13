@@ -41,6 +41,6 @@ def get_response(phrase):
     if prob.item() > 0.75:
         for intent in intents['intents']:
             if tag == intent['tag']:
-                print(f"{bot_name}: {random.choice(intent['responses'])}")
+                return random.choice(intent['responses'])
     else:
-        print(f"{bot_name}: Forgive me but I am still learning and do not yet understand this... ")
+        return "I don't quite understand"

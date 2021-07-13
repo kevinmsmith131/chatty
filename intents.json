@@ -51,6 +51,8 @@
         "Catch you later",
         "Peace out",
         "Later",
+        "quit",
+        "exit",
         "Toodles",
         "Until next time",
         "See ya",
@@ -187,9 +189,11 @@
         "Where do you come from?",
         "Tell me about yourself",
         "About",
-        "What topics are you interested in?"
+        "What topics are you interested in?",
+        "I'm having trouble",
+        "I need to figure this out"
       ],
-      "responses": "My name is Chatty and I am an English speaking chat bot made by Kevin Smith. I use Neural Networks and Natural Language Processing to be able to talk to you. I can provide jokes and fun facts, as well as carry out basic conversation."
+      "responses": ["See my README for more info https://github.com/kevinmsmith131/chatty"]
     } 
   ]
 }
