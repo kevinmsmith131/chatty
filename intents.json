@@ -24,7 +24,8 @@
         "Good evening",
         "Yo",
         "What's good", 
-        "It's been a minute"
+        "It's been a minute",
+        "Greetings"
       ],
       "responses": [
         "Hi",
@@ -115,7 +116,8 @@
         "I'm in the mood for a joke",
         "Hit me with a joke",
         "Got any jokes?",
-         "Random joke"
+         "Random joke",
+         "Joke"
       ],
       "responses": [
         "I invented a new word. Plagiarism!",
@@ -146,7 +148,8 @@
         "Tell me something fun",
         "I'm in the mood for a fact",
         "What's your best fact",
-        "Hit me with a fact"
+        "Hit me with a fact",
+        "Fact"
       ],
       "responses": [
         "A crocodile cannot stick its tongue out",
